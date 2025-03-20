@@ -40,3 +40,24 @@ WHERE artist = 'Bob Mould'
 AND airdate >= NOW() - INTERVAL '1 year'
 GROUP BY song
 ORDER BY play_count DESC;
+```
+
+
+The LLM summarized the answer with, "Based on the results, we can see Bob Mould's most played songs in the past year, with "Here We Go Crazy" being the most popular with 22 plays, followed by "Neanderthal" and "See a Little Light" with 6 plays each.
+
+
+## Links to the Code for Example of RAG with SQL
+
+I've linked to the code here: https://github.com/timowlmtn/sql-rag/tree/main
+
+
+### The Folders
+
+**client** - The client will run the server through a bash call.
+
+
+**python** agent/client/MCPClient.py agent/bash/run_query_agent.sh
+**bash** - Wrapping your server in a bash script will make debugging easier.  It sets your environment variables to connect to your database.
+
+
+server  - This code will contain the server connection classes to connect to your database and format the data.
