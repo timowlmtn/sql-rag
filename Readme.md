@@ -53,11 +53,13 @@ I've linked to the code here: https://github.com/timowlmtn/sql-rag/tree/main
 
 ### The Folders
 
-**client** - The client will run the server through a bash call.
+**client** - The client will run the server through a bash call. 
 
+```
+agent/client/MCPClient.py agent/bash/run_query_agent.sh
+```
 
-**python** agent/client/MCPClient.py agent/bash/run_query_agent.sh
 **bash** - Wrapping your server in a bash script will make debugging easier.  It sets your environment variables to connect to your database.
 
 
-server  - This code will contain the server connection classes to connect to your database and format the data.
+**server**  - This code will contain the server connection classes to connect to your database and format the data.
