@@ -2,7 +2,8 @@
 
 *Author: Tim Burns*
 
-*Published: a few seconds ago*
+[Original Article](https://www.owlmountain.net/post/a-musical-introduction-to-rag)
+**
 
 ## Retrieval Augmented Generation with SQL
 
