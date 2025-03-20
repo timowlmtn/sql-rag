@@ -1,0 +1,14 @@
+boto3
+pandas
+pydantic
+tabulate
+mcp
+snowflake-connector-python
+rich
+pytest
+pytest-mock
+pytest-asyncio
+psycopg2
+anthropic
+openai
+sqlalchemy
